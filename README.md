@@ -1,6 +1,6 @@
 # Spring MVC + Hibernate + AOP Demo Project
 
-This is a small demo project built using **Spring MVC**, **Hibernate**, and **Spring AOP**. It showcases a classic layered architecture for managing employee data, with logging functionality implemented through AOP.
+This is a small demo project built using **Spring MVC**, **Hibernate**, and **Spring AOP**. It showcases a classic layered architecture for managing employee data, with an implemented example of AOP usage.
 
 ## 🔧 Technologies Used
 
@@ -10,6 +10,7 @@ This is a small demo project built using **Spring MVC**, **Hibernate**, and **Sp
 - **JSP** – for frontend views
 - **MySQL** – as the database
 - **C3P0** – connection pooling
+- **Apache Tomcat** – deployment server
 
 ## 📂 Project Structure
 
@@ -17,7 +18,7 @@ This is a small demo project built using **Spring MVC**, **Hibernate**, and **Sp
 - **service** – business logic layer
 - **dao** – data access layer (with Hibernate)
 - **entity** – JPA entity representing the database table
-- **aspect** – contains logging aspects using Spring AOP
+- **aspect** – contains a simple example of aspects using Spring AOP
 - **webapp/WEB-INF/view** – JSP views for displaying employee data
 - **applicationContext.xml** – main Spring configuration
 - **web.xml** – web deployment descriptor
@@ -27,7 +28,7 @@ This is a small demo project built using **Spring MVC**, **Hibernate**, and **Sp
 - List all employees
 - View individual employee details
 - Add / Update / Delete employees
-- AOP method (just like an example) before method execution
+- AOP method (just like an example) around method execution
 
 ## 💡 Notes
 
